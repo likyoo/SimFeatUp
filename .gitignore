@@ -1,0 +1,12 @@
+.env
+*.pyc
+*.txt
+*.o
+*.ckpt
+*output*
+checkpoint*
+__pycache__
+*.so
+build
+work_dirs
+*.log
