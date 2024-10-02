@@ -9,4 +9,5 @@ __pycache__
 *.so
 build
 work_dirs
+data
 *.log
