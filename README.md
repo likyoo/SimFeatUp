@@ -73,7 +73,7 @@ More details about Million-AID can be found [here](https://captain-whu.github.io
 
 ## Train
 
-Change ``pytorch_data_dir`` in the [config](https://github.com/likyoo/SimFeatUp/blob/main/featup/configs/upsampler_aid.yaml) file to your data path. We use two GPUs with a batch size of 4 on each GPU by default.
+Change ``pytorch_data_dir`` in the [config](https://github.com/likyoo/SimFeatUp/blob/main/featup/configs/upsampler_aid.yaml) file to your data path. We use 2 GPUs with a batch size of 4 on each GPU by default.
 
 ```
 python featup/train_upsampler.py
