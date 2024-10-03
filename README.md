@@ -3,7 +3,7 @@
 <h1>SegEarth-OV: Towards Traning-Free Open-Vocabulary Segmentation for Remote Sensing Images</h1>
 
 <div>
-    <strong>make OVSS possible in remote sensing contexts</strong>
+    <strong>Make OVSS possible in remote sensing contexts</strong>
 </div>
 
 <div>
@@ -23,9 +23,10 @@
     </h4>
 </div>
 
-<img src="assets/teaser.jpg" width="900px"/>
-
+<img src="https://github.com/user-attachments/assets/5cf146c3-b719-489d-a9bf-0700fb72c196" width="100%"/>
 </div>
+
+Illustration of the proposed method. (a) is the training process of SimFeatUp. CLIP is frozen and only SimFeatUp is useful in reasoning. (b) is the reasoning process of SegEarth-OV. The LR feature maps from CLIP are upsampled by SimFeatUp and then the \texttt{[CLS]} token is subtracted to alleviate global bias. For better presentation, the color renderings follow [FeatUp](https://github.com/mhamilton723/FeatUp).
 
 ------
 
@@ -71,6 +72,7 @@ If you want to train a your own SimFeatUp, you'll need to download the Million-A
 More details about Million-AID can be found [here](https://captain-whu.github.io/DiRS).
 
 ## Train
+
 Change ``pytorch_data_dir`` in the [config](https://github.com/likyoo/SimFeatUp/blob/main/featup/configs/upsampler_aid.yaml) file to your data path. We use two GPUs with a batch size of 4 on each GPU by default.
 
 ```
