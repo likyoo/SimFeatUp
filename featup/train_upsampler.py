@@ -86,7 +86,6 @@ class SimFeatUp(pl.LightningModule):
         for p in self.model.parameters():
             p.requires_grad = False
         # self.model = torch.nn.Sequential(self.model, ChannelNorm(self.dim))
-        # image_features /= image_features.norm(dim=-1, keepdim=True)?
         self.upsampler = get_upsampler(upsampler, self.dim)
 
         if downsampler == 'simple':
