@@ -87,7 +87,7 @@ python featup/train_upsampler.py
 ```
 @article{li2024segearth,
   title={SegEarth-OV: Towards Training-Free Open-Vocabulary Segmentation for Remote Sensing Images},
-  author={Li, Kaiyu and Liu, ruixun and Cao, Xiangyong and Meng, Deyu and Zhi Wang},
+  author={Li, Kaiyu and Liu, ruixun and Cao, Xiangyong and Bai, Xueru and Zhou, Feng and Meng, Deyu and Wang, Zhi},
   journal={arXiv preprint arXiv:2410.01768},
   year={2024}
 }
