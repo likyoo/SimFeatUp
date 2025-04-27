@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '/data/lky/proj/FeatUp')
+sys.path.insert(0, '../')
 
 import gc
 import os
